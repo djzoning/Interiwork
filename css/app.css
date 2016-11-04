@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+}
+
+body#carousel {
+    background: #1F1C1D;
+    background-size: cover;
+    -webkit-animation: anim 2s;
+    animation: anim 2s;
+}
+
+div#amazingcarousel-container-1 {
+    margin: 5em 0;
+}
+
+@-webkit-keyframes anim {
+    from {background: white;}
+    to {background: #1F1C1D;}
+}
+
+@keyframes anim {
+    from {background: white;}
+    to {background: #1F1C1D;}
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 80%;
+    color: darkgray;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+}
+
+nav#navigation {
+    text-align: center;
+    margin-right: 2.5em;
+}
+
+nav#navigation ul li{
+    display: inline;
+    border-right: 1px solid darkgray;
+    padding: 0 20px;
+}
+
+nav#navigation ul li a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+nav#navigation ul li a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+#selected {
+    color: black;
+}
+
+nav#navigation ul li:last-child {
+    border-right: none;
+}
+
+#image-container {
+    margin-top: 2em;
+}
+
+#image-container img{
+    width: 100%;
+}
+
+#image-container-services {
+    background-image: url('../images/Uslugi/Background.png');
+    background-size: cover;
+}
+
+#white-background-service {
+    background-color: rgba(255,255,255,0.7);
+}
+/*#image-container-services img {*/
+    /*width:100%;*/
+/*}*/
+
+#back {
+    position: relative;
+    left: 200px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+table {
+    margin-top: 4em;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h3#contact {
+    margin-bottom: 1em;
+}
+
+#gmaps {
+    width: 600px;
+    height: 450px;
+}
+
+#btn {
+    margin-top:1em;
+}
+
+#map {
+    margin-top:2em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    border-top: 1px solid lightgray;
+    padding-top: 1em;
+    font-size: 10px;
+}

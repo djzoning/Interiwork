@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-md-4">
+        <h3 id="contact">Contact</h3>
+        <p>
+            София
+            Хайдушка гора 3б
+        </p>
+        <p>
+            тел. +359 898 381 060
+        </p>
+        <p>
+            Manoel.Ivanov@gmail.com
+        </p>
+
+        <form class="form-group">
+            Email <input class="form-control" type="email" ng-model="email">
+            Subject <input class="form-control" type="text" ng-model="subject">
+            Text <textarea class="form-control" ng-model="text"></textarea>
+            <button id="btn" class="btn btn-primary" ng-click="sendEmail(email, subject, text)">Send Mail</button>
+        </form>
+    </div>
+    <div id="map" class="col-md-8">
+        <div my-map=""></div>
+    </div>
+
+</div>
